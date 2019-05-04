@@ -1,4 +1,11 @@
 # Smart Elections
+## Contributors
+1- Mohamed Gamal Abbas
+2- Mo'men Mamdouh Helmy
+3- Mohamed Elsayed Abdelfattah
+4- Mohamed Sayed Ali
+5- Mohamed Shaden Ibrahim
+## Description
 This project scans any Egyptian national id by getting its national id number into text format to help the user to identify if the people allowed to vote, already voted, or unable to vote. this process is done by comparing the id number with DB records.
 ## Database
 ![enter image description here](https://i.ibb.co/LYG67Y6/Untitled.png)
