@@ -1,11 +1,14 @@
 # Smart Elections
 ## Contributors
-- Mohamed Gamal Abbas
+- Mohamed Gamal Abbass
 - Mo'men Mamdouh Helmy
 - Mohamed Elsayed Abdelfattah
 - Mohamed Sayed Ali
 - Mohamed Shaden Ibrahim
 ## Description
+Recently as a part of trying to grow into a more democratic environment, participation in election is obviously increasing.
+The integrity and simplicity of the process always remain as big threatening issues due to the traditional ways used to manage the election process starting from the eligibility of the person to participate, taking his fingerprint, and whether he had already voted or not.
+Our application aims to resolve these issues through scanning the information needed using the national ID and comparing them with the information already stored in the election process database in a very short time.
 This project scans any Egyptian national id by getting its national id number into text format to help the user to identify if the people allowed to vote, already voted, or unable to vote. this process is done by comparing the id number with DB records.
 ## Database
 ![enter image description here](https://i.ibb.co/LYG67Y6/Untitled.png)
