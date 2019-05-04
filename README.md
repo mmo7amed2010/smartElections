@@ -19,16 +19,20 @@ The table contains the users allowed to vote and their status.
 The "no" status will change into "yes" automatically when the user national ID is scanned.  
 **Note** : the DB is attached with name ip.sql
 ### Part2: Image pre-processing using python opencv.  
-• Finding contours in the image to get the boundaries.
-• Applying Perspective Transformation.
-• Removing noise from the image and apply binarization.
+• Resizing the images.  
+• Applying canny for edge detections.  
+• Finding contours in the image to get the boundaries.  
 the python code is in the directory public/beta2a/y.py [click here to see the code with comments](https://github.com/mmo7amed2010/smartElections/blob/master/public/beta2a/y.py).for jupyter pdf click [here](https://ufile.io/1cr461v0)
-## OCR Using tesseract
+### Part3: Extracting text from the image. "OCR Using tesseract"  
+• Determining the layout of the image.  
+• Extracting the desired information from the image.  
 the tesseract-ocr run by shell execution handled by PHP code in the directory app/Http/Controllers/HomeController.php [click here to see the code ](https://github.com/mmo7amed2010/smartElections/blob/master/app/Http/Controllers/HomeController.php).
 
  **the ocr is running in this line of code using non offical trained tessdata**:
 
     $id_no = shell_exec('"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe" '.$id_no.' E:/ip/public/'.$name.' -l ara-Amiri-layer 2>&1');
-
+### Part4: Verification.
+• Comparing the gathered information with the information already stored in the database.  
+• Producing the actions needed to be taken whether allowing or denying the person to participate in elections.  
 ### video
 here is a video demonestrates how it works [click here](https://www.youtube.com/watch?v=T7oyJq11G7Y)
