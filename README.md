@@ -35,4 +35,4 @@ the tesseract-ocr run by shell execution handled by PHP code in the directory ap
 • Comparing the gathered information with the information already stored in the database.  
 • Producing the actions needed to be taken whether allowing or denying the person to participate in elections.  
 ### video
-here is a video demonestrates how it works [click here](https://www.youtube.com/watch?v=T7oyJq11G7Y)
+here is a video demonestrates how it works [click here](https://youtu.be/a7JGgkiCReA)
